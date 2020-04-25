@@ -238,7 +238,9 @@ body {
  margin:0!important;
  position:absolute;
  top:0;
- left:0
+ left:0;
+ width:100%;
+ height:100%;
 }
 #popupWindow {
  z-index:100!important
@@ -287,8 +289,8 @@ body {
  left:-12px;
  position:absolute;
  background-repeat:no-repeat;
- width:1047px;
- height:598px;
+ width:100%;
+ height:100%;
  display:none
 }
 .ui-1024 #gameArea {
@@ -296,12 +298,12 @@ body {
  position:absolute;
  top:0;
  left:0;
- width:1024px;
- height:576px
+ width:100%;
+ height:100%
 }
 .ui-1024 .panel {
- width:1024px;
- height:576px
+ width:100%;
+ height:100%
 }
 .ui-1024 #startBackground {
  display:none;
@@ -321,21 +323,21 @@ body {
 .ui-1024 #shadowCanvas {
  position:absolute;
  top:0;
- width:1024px;
- height:576px
+ width:100%;
+ height:100%
 }
 .ui-1024 .panelShadow img {
  position:relative;
- left:-300px;
+ left:-50%;
  position:relative;
  top:-500px
 }
 .ui-1024 .fBtnVBox {
- width:303px;
+ width:25%;
  margin:0 auto
 }
 .ui-1024 .fBtn {
- width:303px;
+ width:25%;
  height:70px;
  background-image:url(../images/1024/ui/fBtn_bgd.png);
  background-repeat:no-repeat;
